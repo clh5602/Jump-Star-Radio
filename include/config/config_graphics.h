@@ -25,7 +25,7 @@
 /**
  * Spawns floombas on the title screen.
  */
-#define INTRO_FLOOMBAS
+//#define INTRO_FLOOMBAS
 
 /**
  * Enables widescreen (16:9) support.
@@ -87,7 +87,7 @@
 /**
  * Use 64x64 quarter shadow textures (Vanilla are 16x16).
  */
-#define HD_SHADOWS
+//#define HD_SHADOWS
 
 /**
  * Makes certain objects (mainly trees) transparent when the camera gets close.
@@ -108,7 +108,7 @@
  * Uses the star object's model in the star dance cutscene.
  * This has a side effect of making the star dance star also transparent when Mario collects a transparent star.
  */
-// #define STAR_DANCE_USES_STARS_MODEL
+#define STAR_DANCE_USES_STARS_MODEL
 
 /**
  * Disables all object shadows. You'll probably only want this either as a last resort for performance or if you're making a super stylized hack.
@@ -132,7 +132,7 @@
  * Makes objects below the screen be culled. 
  * NOTE: Vanilla objects do not account for vertical culling.
  */
-// #define VERTICAL_CULLING
+#define VERTICAL_CULLING
 
 /**
  * If the first command of an object´s geolayout is not GEO_CULLING_RADIUS, DEFAULT_CULLING_RADIUS

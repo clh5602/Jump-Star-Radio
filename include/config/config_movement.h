@@ -71,7 +71,7 @@
 /**
  * Prevents Mario from losing his cap.
  */
-// #define PREVENT_CAP_LOSS
+#define PREVENT_CAP_LOSS
 
 /**
  * Uses Shindou's pole behavior.
@@ -86,7 +86,7 @@
 /**
  * Enables the ability to hold Z while twirling to descend faster.
  */
-// #define Z_TWIRL
+#define Z_TWIRL
 
 /**
  * Disables bonks when ground pounding next to a wall.
@@ -101,7 +101,7 @@
 /**
  * Allows Mario to grab hangable ceilings from any state.
  */
-// #define HANGING_FIX
+#define HANGING_FIX
 
 /**
  * The maximum angle the player can wall kick, in degrees. 0..90. To allow 45 degree wall kicks, you must supply `46` to allow 45 and under.

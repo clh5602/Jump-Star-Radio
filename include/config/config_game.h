@@ -23,7 +23,7 @@
 /**
  * This can be 0..32767.
  */
-#define MAX_NUM_COINS 999
+#define MAX_NUM_COINS 32767
 
 /**
  * Air/breath meter is separate from health meter when underwater.
@@ -33,12 +33,12 @@
 /**
  * Number of coins to spawn the "100 coin" star. If you remove the define altogether, then there won't be a 100 coin star at all.
  */
-#define X_COIN_STAR 100
+//#define X_COIN_STAR 100
 
 /**
  * Stars don't kick you out of the level (does not play nicely with vanilla).
  */
-// #define NON_STOP_STARS
+#define NON_STOP_STARS
 
 /**
  * Bowser keys always exit the level. Only has an effect if NON_STOP_STARS is enabled.
@@ -48,7 +48,7 @@
 /**
  * Uncomment this if you want global star IDs (useful for creating an open world hack ala MVC).
  */
-// #define GLOBAL_STAR_IDS
+#define GLOBAL_STAR_IDS
 
 /**
  * Number of possible unique model ID's (keep it higher than 256).
